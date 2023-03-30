@@ -1,0 +1,30 @@
+:root {
+    --grid-rows: 1;
+    --grid-columns: 1;
+}
+
+#container {
+    display: grid;
+    padding: 1%;
+    margin: 30%;
+    margin-top: 8em;
+    border: solid red 1px;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-columns), 1fr);
+}
+
+.grid-cell {
+    padding: 1em;
+    border: 1px solid black;
+    text-align: center;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+margin-top: -25em;
+}
