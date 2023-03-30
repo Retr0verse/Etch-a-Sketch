@@ -28,3 +28,6 @@ h3 {
     justify-content: center;
 margin-top: -25em;
 }
+.grid-cell:hover {
+    background-color: black;
+}
