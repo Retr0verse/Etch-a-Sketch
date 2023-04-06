@@ -23,6 +23,8 @@ h1 {
   width: 700px;
   height: 50px;
   justify-content: space-evenly;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 button {
@@ -107,7 +109,7 @@ button:active {
 }
 
 .grid {
-  margin-top: 50px;
+  margin-top: 10px;
   display: inline-grid;
   grid-template-columns: repeat(16, 2fr);
   grid-template-rows: repeat(16, 2fr);
