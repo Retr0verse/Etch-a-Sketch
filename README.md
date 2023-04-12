@@ -1,1 +1,3 @@
-Browser based sketchpad / Etch A Sketch
+#Etch-a-Sketch
+Browser based sketchpad / Etch A Sketch simple retro styled
+
